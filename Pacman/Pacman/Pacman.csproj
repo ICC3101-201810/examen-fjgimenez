@@ -46,6 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDeDatos.cs" />
+    <Compile Include="DistintasFrutas.cs" />
+    <Compile Include="DistintosFantasmas.cs" />
+    <Compile Include="Fantasma.cs" />
+    <Compile Include="Fruta.cs" />
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +85,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +99,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanasmarojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fanasmarojo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fantasmarosado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cereza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uva.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
