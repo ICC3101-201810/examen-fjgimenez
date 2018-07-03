@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDeDatos.cs" />
+    <Compile Include="Tablero.cs" />
     <Compile Include="DistintasFrutas.cs" />
     <Compile Include="DistintosFantasmas.cs" />
     <Compile Include="Fantasma.cs" />
@@ -69,8 +70,12 @@
       <DependentUpon>Juego.cs</DependentUpon>
     </Compile>
     <Compile Include="Jugador.cs" />
+    <Compile Include="Pacman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Highscores.resx">
+      <DependentUpon>Highscores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>

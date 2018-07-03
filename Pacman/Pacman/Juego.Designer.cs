@@ -79,6 +79,7 @@
             this.picturePacman.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.picturePacman.TabIndex = 7;
             this.picturePacman.TabStop = false;
+            //this.picturePacman.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.picturePacman_KeyDown);
             // 
             // pictureUva
             // 
@@ -86,6 +87,7 @@
             this.pictureUva.Location = new System.Drawing.Point(671, 336);
             this.pictureUva.Name = "pictureUva";
             this.pictureUva.Size = new System.Drawing.Size(40, 50);
+            this.pictureUva.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureUva.TabIndex = 6;
             this.pictureUva.TabStop = false;
             // 
@@ -96,6 +98,7 @@
             this.pictureFantasmaRosado.Location = new System.Drawing.Point(82, 336);
             this.pictureFantasmaRosado.Name = "pictureFantasmaRosado";
             this.pictureFantasmaRosado.Size = new System.Drawing.Size(50, 50);
+            this.pictureFantasmaRosado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureFantasmaRosado.TabIndex = 5;
             this.pictureFantasmaRosado.TabStop = false;
             // 
@@ -105,6 +108,7 @@
             this.pictureCereza.Location = new System.Drawing.Point(82, 108);
             this.pictureCereza.Name = "pictureCereza";
             this.pictureCereza.Size = new System.Drawing.Size(50, 50);
+            this.pictureCereza.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureCereza.TabIndex = 4;
             this.pictureCereza.TabStop = false;
             // 
